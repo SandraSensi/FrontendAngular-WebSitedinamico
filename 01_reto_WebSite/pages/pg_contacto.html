@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+</head>
+<body>
+
+    <header class='header'>
+
+        <div class='header_text'>
+            <h1>¡Bienvenido a una parte de mi!</h1>
+           <nav class='navegation'>
+            
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="pg_trabajo.html">¿Donde he trabajado?</a></li>
+                    <li>
+                        <a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+    
+            
+        </div>
+        </header>
+    
+    <div class='box'>
+        <div>
+        <h1>Si estás interesado en contactar conmigo....¡Hazlo! :) </h1>
+        <form action="/signup" method="POST">
+        <label for="fname">Nombre:</label>
+        <input type="text" id='fname' name="fname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="@gmail">
+        <p>Selecciona tipo de contacto:</p>
+            <input type="radio" id="empresa" name="nivel" value="empresa">
+            <label for="empresa">Empresa</label><br>
+            <input type="radio" id="particular" name="nivel" value="particular">
+            <label for="particular">Particular</label><br>
+            <input type="radio" id="colaboracion" name="nivel" value="colaboracion">
+            <label for="colaboracion">Colaboración</label>
+
+    <button type=”button”>Enviar</button>
+</div>
+</div>
+    
+    
+    
+    </form>
+</body>
+</html>

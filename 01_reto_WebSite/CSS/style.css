@@ -1,0 +1,89 @@
+
+
+.header {
+    background-color:rgba(135, 211, 124, 1);
+    color: #ffffff;
+    padding: 1rem 0;
+  }
+
+
+.header_text{
+    display: flex;
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.header a{
+    text-decoration:none ;
+    color: white;
+
+}
+.navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegation ul li{
+
+    display: inline-block;
+}
+
+.navegation ul li a{
+
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navegation ul li a:hover{
+    background-color:rgba(3, 201, 169, 1) ;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("img/mundo_ilustracion_color.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+
+    width: 450px;
+    max-width: 85%;
+    background: rgba(0, 181, 204, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+.box table{
+
+    text-align: center;
+    padding: 15px;
+    border-spacing: 15px;
+
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 10px;
+
+}
+.box li a{
+    color:white;
+    font-size: 60px;
+}
